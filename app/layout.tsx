@@ -1,7 +1,7 @@
 
-import Footer from "../home-components/Footer";
-import Navbar from "../home-components/navbar";
+
 import "./globals.css";
+import AnnouncementNotifier from "./home-components/AlertNotificationWatcher";
 
 
 
@@ -14,9 +14,8 @@ export default function RootLayout({
     <html lang="en">
       <body
       >
-        <Navbar />
         {children}
-            <Footer  />
+            <AnnouncementNotifier />
       </body>
     </html>
   );

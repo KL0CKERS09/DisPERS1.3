@@ -13,11 +13,11 @@ const roboto = Roboto({
 });
 
 const navItems = [
-    { name: 'Home', href: '/admin' },
-    { name: 'Reports', href: '/admin/verifying-reports' },
-    { name: 'Users', href: '/admin/user-data' },
-    { name: 'Announcement', href: '/admin/announcement' },
-    { name: 'Alerts', href: '/admin/alert' },
+    { name: 'Home', href: '/dispersAdminKl0ckers' },
+    { name: 'Reports', href: '/dispersAdminKl0ckers/verifying-reports' },
+    { name: 'Users', href: '/dispersAdminKl0ckers/user-data' },
+    { name: 'Announcement', href: '/dispersAdminKl0ckers/announcement' },
+    { name: 'Alerts', href: '/dispersAdminKl0ckers/alert' },
 ];
 
 export default function NavbarAdmin() {
@@ -39,7 +39,7 @@ export default function NavbarAdmin() {
                             width={70}
                             height={70}
                         />
-                        <Link href="/User-Main" className="flex flex-col">
+                        <Link href="/dispersAdminKl0ckers" className="flex flex-col">
                             <span className={`${styles.logoTitle} ${roboto.variable} font-bold text-3xl text-black`}>DisPERS</span>
                             <span className={`${styles.logoSubTitle} text-white`}>Barangay Bagong Silangan Alert System</span>
                         </Link>
