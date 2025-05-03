@@ -5,7 +5,7 @@ import "./global.css";
 
 
 
-export default function LogInLayout({
+export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
